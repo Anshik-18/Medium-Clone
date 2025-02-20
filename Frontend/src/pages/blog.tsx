@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useBlog } from "../hooks"
 import { FullBlog } from "../components/FullBlog";
-import { BlogSkeleton, FullBlogSkeleton } from "../components/BLogsSkeleton";
+import { FullBlogSkeleton } from "../components/BLogsSkeleton";
 
 export const Blog = ()=>{
     const{id } = useParams()
@@ -13,6 +13,9 @@ export const Blog = ()=>{
         return <div>
             <FullBlogSkeleton/>
         </div>
+    }
+    if (!blog) {
+        return <div>Error: Blog not found</div>; // Handle case where blog is undefined
     }
     return <div>
       <FullBlog blog={blog}/>

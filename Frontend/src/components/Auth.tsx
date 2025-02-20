@@ -1,5 +1,5 @@
-import { ChangeEvent, ChangeEventHandler, useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom"
+import { ChangeEvent, useState } from "react";
+import { Link,  useNavigate } from "react-router-dom"
 
 import { signupinput } from "@anshikjain/medium-common";
 import axios from "axios";
