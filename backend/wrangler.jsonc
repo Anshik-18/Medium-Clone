@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-18",
+ 
+  "vars": {
+    "DATABASE_URL": "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNzMyNmI4MDMtOGU1MS00MDY3LTgxMGYtNjNiNTk1NDEzYzQ1IiwidGVuYW50X2lkIjoiYmQ1ZmFlN2VmM2M2ZGM2NjRhOTY2ZWIwY2RkZWM1ZTdlMDZlYTY1NTY3OTQyMzQwMGMwNTg4Zjk4MTY3YWUzOCIsImludGVybmFsX3NlY3JldCI6IjU2NjZiNjg0LWUxOTMtNDEyMS1hNzJiLTFhMWE1YjQzNTIzMCJ9.wlq6wc2qJrIYJgCPgtdbJ_HplpAhHVF3hLkHwX-9lYs",
+    "JWT_SECRET":"Anshik Jain"
+
+  }
+  
+ 
+}
